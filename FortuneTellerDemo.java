@@ -40,6 +40,8 @@ public class FortuneTellerDemo {
       
       System.out.println("How many siblings do you have?");
       int numOfSiblings = inputScanner.nextInt();
+
+      inputScanner.close();
       
       // Calculate Retirement Age
       int yearsToRetire = 0;
